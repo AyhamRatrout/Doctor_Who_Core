@@ -1,10 +1,10 @@
 ﻿using System;
 
-namespace DoctorWho
+namespace DoctorWho.UI
 {
-    class Program
+    public class Program
     {
-        static void Main(string[] args)
+        protected static void Main(string[] args)
         {
             Console.WriteLine("Hello World!");
         }
