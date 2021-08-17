@@ -13,7 +13,8 @@ namespace DoctorWho.Db.Repositories
         }
         public static void Update()
         {
-
+            DoctorWhoCoreDbContext._context.ChangeTracker.DetectChanges();
+            DoctorWhoCoreDbContext._context.SaveChanges();
         }
         public static void Delete(Episode Episode)
         {
