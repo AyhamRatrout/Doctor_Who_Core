@@ -37,21 +37,22 @@ Requirements:
 
 11. Write methods to:
 
-	a. AddEnemyToEpisode: Add an enemy to an episode.
-	b. AddCompanionToEpisode: Add a companion to an episode.
-	c. GetAllDoctors: Get all available doctors.
-	d. GetEnemyById: Get an enemy by ID.
-	e. GetCompanionById: Get a companion by ID.
+	* AddEnemyToEpisode: Add an enemy to an episode.
+	* AddCompanionToEpisode: Add a companion to an episode.
+	* GetAllDoctors: Get all available doctors.
+	* GetEnemyById: Get an enemy by ID.
+	* GetCompanionById: Get a companion by ID.
 
 12. Create a repository class for each entity and call it: {EntityName}Repository.cs, and move related methods from the previous requirements to the right repository. These repositories should exist in Repositories folder DoctorWho.Db
 
 My repository is divided into the following folders and sub-folders:
+
 1. The "Data_Files" Folder: contains all the CSV files used to populate the databse and its objects with various information.
 2. The "Database" Folder: contains the backup file for the database which was created and populated for the purpose of this project.
 3. The "DoctorWho" Folder: this folder contains the following sub-folders:
-	a. DoctorWho.Db: contains the Migrations folder, the Repositories folder (which is comprised of a number of repository classes, one for each entity that was created, and containing all the methods required to create, update, and delete a record in a repository), as well as the DoctorWho DbContext class for this project.
-	b. DoctorWho.Domain: contains all the entities classes required to create the data models for this project.
-	c. DoctorWho.UI: a simple console user interface to run the different methods and functionalities of this project.
+	* DoctorWho.Db: contains the Migrations folder, the Repositories folder (which is comprised of a number of repository classes, one for each entity that was created, and containing all the methods required to create, update, and delete a record in a repository), as well as the DoctorWho DbContext class for this project.
+	* DoctorWho.Domain: contains all the entities classes required to create the data models for this project.
+	* DoctorWho.UI: a simple console user interface to run the different methods and functionalities of this project.
 
 Thanks,
 
